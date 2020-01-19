@@ -1,3 +1,11 @@
+/* 
+Created: Viraat Udar
+Description: This file is defines the "EditDistance" class to serve as a table of numbers greater than one.
+	For each matched character between two strings the cells following the topleft to bottomright diagonal will not increment,
+	otherwise if there is a difference the number will increment.
+	Based on the table, it may be optimal to shift some characters of the string over in order to achieve a better score.
+
+*/
 #include <iostream>
 #include <string>
 #include <vector>
